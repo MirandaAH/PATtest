@@ -6,7 +6,7 @@ class Goals extends Component {
   }
   render(){
     return(
-      <div className=" col-lg-3">
+      <div className=" col-lg-5">
           <div className="goals text-center">
               <button type="button" className="btn btn-success">Add Goal</button>
               <div className="goal-container">

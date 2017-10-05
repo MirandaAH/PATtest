@@ -6,10 +6,9 @@ import Social from './Social';
 class Row1 extends Component {
   render(){
     return(
-      <div className="row main-1">
+      <div className="row main-1 container">
         <Goals />
         <GoalProgress />
-        <Social />
       </div>
     );
   }

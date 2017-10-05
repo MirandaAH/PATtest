@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import API from '../utils/API.js';
-
-import Navbar from './sub/Navbar';
 import LoginForm from './sub/LoginForm.js';
 
 //Link is required for both sign up and login (style as desired)
@@ -24,11 +22,11 @@ class Landing extends Component {
 
   authUser(email, pass) {
     API.auth(email, pass)
-    .then(data => {
-      console.log('success');
-      window.location = '/todomain';
-    })
-    .catch(error => console.log(error));
+      .then(data => {
+        console.log('success');
+        window.location = '/todomain';
+      })
+      .catch(error => console.log(error));
   }
 
   handleInputChange(event) {
@@ -50,19 +48,18 @@ class Landing extends Component {
     return (
       <div className="login">
         <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
-        <Navbar />
         <div className="container">
-            <div className="row">
-                <div className="col-md-12">
-                  <img src={'../Images/mainLogo.png'} className="logo"alt="nada" />
-                  <LoginForm
-                  email={this.state.email}
-                  password={this.state.password}
-                  handleInputChange={this.handleInputChange}
-                  handleFormSubmit={this.handleFormSubmit}
-                  />
-                </div>
+          <div className="row">
+            <div className="col-md-12">
+              <img src={'../Images/mainLogo.png'} className="landing-logo" alt="nada" />
+              <LoginForm
+                email={this.state.email}
+                password={this.state.password}
+                handleInputChange={this.handleInputChange}
+                handleFormSubmit={this.handleFormSubmit}
+              />
             </div>
+          </div>
         </div>
       </div>
 
