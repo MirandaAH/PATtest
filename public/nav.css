@@ -1,0 +1,35 @@
+/*Navbar*/
+
+.navbar {
+    background-color: white;
+    border-radius: 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.navbar>.container {
+    
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #5cb85c
+}
+.navbar-brand {
+    font-size: 25px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+.navbar-nav>li {
+    margin-left: 20px;
+    font-family: 'Mallanna', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-logo {
+    margin-top: 15px;
+    height: 90px;
+}

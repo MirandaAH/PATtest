@@ -5,17 +5,11 @@ body {
     font-size: 1em;        
     font-family: 'Palanquin Dark', sans-serif;
 }
-
-/*Navbar*/
-
-.navbar {
-    background-color: rgba(255, 255, 255, 0.95);
-    border-radius: 0px;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #5cb85c
-}
+/*Landing Page*/
+/* Fonts
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Mallanna', sans-serif;
+ */
 
 
 /*Main*/
@@ -40,10 +34,7 @@ body {
     border-radius: 5px;
 }
 
-.navbar-nav>li {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 .card {
     margin: 5px;

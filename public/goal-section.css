@@ -1,0 +1,28 @@
+hr {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+}
+.goal-container {
+    margin-top: 30px;
+    text-align: left;
+}
+.btn {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.panel {
+    font-family: 'Mallanna', sans-serif;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.84);
+}
+.panel-heading {
+    margin: 5px 0px 5px 20px;
+}
+.panel-body {
+    padding: 20px 10px 10px 10px;
+    background-color: white;
+}
