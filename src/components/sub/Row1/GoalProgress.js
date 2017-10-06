@@ -8,12 +8,12 @@ let ButtonToolbar = require("react-bootstrap/lib/ButtonToolbar")
 class GoalProgress extends Component {
     render() {
         return (
-            <div className="col">
+            <div className="col-lg-7">
                 <div className="goal-progress text-center">
                     <ButtonToolbar>
-                        <Button bsStyle="success" bsSize="large">Add Progress</Button>
+                        <Button bsStyle="success" bsSize="large"><i class="fa fa-plus" aria-hidden="true"></i> Add Progress</Button>
                     </ButtonToolbar>
-                    <hr/>
+                    <hr />
                     <div className="goal-container">
                         <div className="card">
                             <div className="card-block">
