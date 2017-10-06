@@ -12,11 +12,11 @@ class Head extends Component {
             <Navbar className="navbar">
                 <NavbarHeader>
                     <Navbar.Brand className="navbar-brand">
-                    <a href="/todomain"> <img className="nav-logo" src="Images/logo.png"/></a>       
+                    <a href="/main"> <img className="nav-logo" src="Images/logo.png" alt="logo"/></a>
                     </Navbar.Brand>
                 </NavbarHeader>
                 <Nav>
-                    <NavItem className="nav-list" eventKey={1} href="/todomain">Home</NavItem>
+                    <NavItem className="nav-list" eventKey={1} href="/main">Home</NavItem>
                     <NavItem className="nav-list" eventKey={2} href="/progress">Progress</NavItem>
                 </Nav>
             </Navbar>

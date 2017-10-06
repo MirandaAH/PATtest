@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-
+import Head from './components/sub/Head';
 import Page from './components/Page';
 
 
@@ -9,7 +9,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Page />
+        <div>
+          <Head />
+          <Page />
+        </div>
+
       </Router>
     );
   }
