@@ -10,13 +10,15 @@ class Head extends Component {
     render() {
         return (
             <Navbar className="navbar">
+                <Nav>
+                    <NavItem className="nav-list" eventKey={1} href="/main">Home</NavItem>
+                </Nav>
                 <NavbarHeader>
                     <Navbar.Brand className="navbar-brand">
-                    <a href="/main"> <img className="nav-logo" src="Images/logo.png" alt="logo"/></a>
+                        <img href="/main" className="nav-logo" src="Images/logo.png" alt="logo" />
                     </Navbar.Brand>
                 </NavbarHeader>
                 <Nav>
-                    <NavItem className="nav-list" eventKey={1} href="/main">Home</NavItem>
                     <NavItem className="nav-list" eventKey={2} href="/progress">Progress</NavItem>
                 </Nav>
             </Navbar>
