@@ -10,8 +10,13 @@ class GoalProgress extends Component {
         return (
             <div className="col-lg-7">
                 <div className="goal-progress text-center">
+<<<<<<< HEAD
                     <ButtonToolbar>
                         <Button bsStyle="success" bsSize="large"><i class="fa fa-plus" aria-hidden="true"></i> Add Progress</Button>
+=======
+                    <ButtonToolbar> 
+                        <Button bsStyle="success" bsSize="large">Add Progress</Button>
+>>>>>>> lgb work
                     </ButtonToolbar>
                     <hr />
                     <div className="goal-container">
