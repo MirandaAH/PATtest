@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 let Button = require("react-bootstrap/lib/Button");
-// let Panel = require("react-bootstrap/lib/Panel");
-// let Accordion = require("react-bootstrap/lib/Accordion")
+let Panel = require("react-bootstrap/lib/Panel");
+let Accordion = require("react-bootstrap/lib/Accordion")
 let ButtonToolbar = require("react-bootstrap/lib/ButtonToolbar")
 
 class GoalProgress extends Component {

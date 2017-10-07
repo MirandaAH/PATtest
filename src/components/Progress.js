@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ActiveGoals from './sub/ActiveGoals';
 import CompletedGoals from './sub/CompletedGoals';
 import SelectedGoal from './sub/SelectedGoal';
-import GuruLevel from './sub/GuruLevel';
+
 
 
 

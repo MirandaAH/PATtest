@@ -5,10 +5,13 @@ import GoalProgress from './sub/GoalProgress';
 class Main extends Component {
   render(){
     return(
-      <div className="row main-1">
-        <Goals />
-        <GoalProgress />
-      </div>
+        <div className="container">
+          <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
+          <div className="row main-1">
+            <Goals />
+            <GoalProgress />
+          </div>
+        </div>
     );
   }
 }
