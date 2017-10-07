@@ -5,14 +5,10 @@ import GoalProgress from './sub/GoalProgress';
 class Main extends Component {
   render(){
     return(
-        <div className="container">
-          <div className="row main-1">
-            <Goals />
-            <GoalProgress />
-          </div>
-        </div>
-
-
+      <div className="row main-1">
+        <Goals />
+        <GoalProgress />
+      </div>
     );
   }
 }

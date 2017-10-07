@@ -9,9 +9,14 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <Head />
-          <Page />
+        <div class="app">
+          <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
+          <div class="app-header">
+            <Head />
+          </div>
+          <div class="container">
+            <Page />
+          </div>
         </div>
 
       </Router>

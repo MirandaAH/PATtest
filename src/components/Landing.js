@@ -47,7 +47,6 @@ class Landing extends Component {
   render() {
     return (
       <div className="login">
-        <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
         <div className="container">
           <div className="row">
             <div className="col-md-12">
