@@ -32,12 +32,9 @@ font-family: 'Mallanna', sans-serif;
 .goal-progress-container,
 .social {
     background-color: #444;
-    height: 500px;
     margin-top: 10px;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 5px;
     border-radius: 5px;
+    padding-bottom: 20px;
 }
 
 .new-container {
@@ -120,4 +117,9 @@ h3 {
 .completed-card {
     border: 3px solid #5cb85c;
     height: 400px;
+}
+
+.main-page-container {
+    margin-left: 25px;
+    margin-right: 25px;
 }

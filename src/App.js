@@ -9,16 +9,18 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div class="app">
-          
+        <div className="app">
+
           <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
-          <div class="app-header">
-          <Head />
+          <div className="app-header">
+            <Head />
           </div>
-          <div class="container">
+
+          <div className="row">
             <Page />
           </div>
         </div>
+
 
       </Router>
     );
