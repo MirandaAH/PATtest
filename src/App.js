@@ -10,9 +10,10 @@ class App extends Component {
     return (
       <Router>
         <div class="app">
+          
           <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
           <div class="app-header">
-            <Head />
+          <Head />
           </div>
           <div class="container">
             <Page />

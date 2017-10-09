@@ -15,7 +15,6 @@ class Progress extends Component {
               <div class="row">
                 <ActiveGoals />
                 <CompletedGoals />
-                <GuruLevel />
               </div>
               <SelectedGoal />
             </div>

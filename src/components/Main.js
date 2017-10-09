@@ -5,7 +5,7 @@ import GoalProgress from './sub/GoalProgress';
 class Main extends Component {
   render(){
     return(
-        <div className="container">
+        <div>
           <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
           <div className="row main-1">
             <Goals />

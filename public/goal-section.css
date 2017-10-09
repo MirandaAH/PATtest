@@ -4,7 +4,6 @@ hr {
     width: 90%;
 }
 .goal-container {
-    margin-top: 30px;
     text-align: left;
 }
 .btn {
@@ -12,18 +11,67 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Palanquin Dark', sans-serif;
+    box-shadow: 3px 3px 15px black;
+}
+.btn-toolbar > .btn {
+    float: none;
 }
 .panel {
     font-family: 'Mallanna', sans-serif;
     margin: 5px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.84);
 }
 .panel-heading {
     margin: 5px 0px 5px 20px;
 }
+.panel-heading:hover {
+    cursor: pointer;
+}
 .panel-body {
     padding: 20px 10px 10px 10px;
-    background-color: white;
+    background-color: rgba(153, 153, 153, 0.397);
+    border-radius: 5px;
+}
+
+.sub-goal-display {
+    
+}
+
+.goal-progress-bars {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.progress-bar {
+    height: 40px;
+}
+
+.progress {
+    margin: auto;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 98%;
+    color: white;
+    background-color: #888;
+    position: relative;
+    height: 30px;
+}
+
+.progress-value {
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    color: white;
+    font-size: 1.5em;
+}
+
+.goal-comp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
