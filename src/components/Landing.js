@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import API from '../utils/API.js';
-import LoginForm from './sub/LoginForm.js';
+import LoginForm from './auth/LoginForm.js';
 
 //Link is required for both sign up and login (style as desired)
 class Landing extends Component {

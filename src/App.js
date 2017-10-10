@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Head from './components/sub/Head';
+import Nav from './components/Nav';
 import Page from './components/Page';
 
 
@@ -13,7 +13,7 @@ class App extends Component {
 
           <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
           <div className="app-header">
-            <Head />
+            <Nav />
           </div>
 
           <div className="row">

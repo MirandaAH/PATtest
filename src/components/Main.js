@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import GoalItem from './sub/GoalItem';
-import GoalProgress from './sub/GoalProgress';
+import GoalComponent from './main/GoalComponent';
+import ProgressEntry from './main/ProgressEntry';
 
 let Button = require("react-bootstrap/lib/Button");
 let ButtonToolbar = require("react-bootstrap/lib/ButtonToolbar")
@@ -17,7 +17,7 @@ class Main extends Component {
                 <Button bsStyle="success" bsSize="large"><i class="fa fa-plus" aria-hidden="true"> </i> Add Goal</Button>
               </ButtonToolbar >
               <hr />
-              <GoalItem />
+              <GoalComponent />
             </div>
           </div>
           <div className="col-lg-8">
@@ -26,9 +26,9 @@ class Main extends Component {
                 <Button bsStyle="success" bsSize="large"><i class="fa fa-plus" aria-hidden="true"></i> Add Progress</Button>
               </ButtonToolbar>
               <hr />
-              <GoalProgress />
-              <GoalProgress />
-              <GoalProgress />
+              <ProgressEntry />
+              <ProgressEntry />
+              <ProgressEntry />
             </div>
           </div>
         </div>

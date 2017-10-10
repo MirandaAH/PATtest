@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ActiveGoals from './sub/ActiveGoals';
-import CompletedGoals from './sub/CompletedGoals';
-import SelectedGoal from './sub/SelectedGoal';
+import ActiveGoals from './progress/ActiveGoals';
+import CompletedGoals from './progress/CompletedGoals';
+import SelectedGoal from './progress/SelectedGoal';
 
 
 
