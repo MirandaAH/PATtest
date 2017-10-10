@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 let Navbar = require("react-bootstrap/lib/Navbar");
 let NavItem = require("react-bootstrap/lib/NavItem");
@@ -11,15 +12,13 @@ class Head extends Component {
         return (
             <Navbar className="navbar">
                 <Nav>
-                    <NavItem className="nav-list" eventKey={1} href="/main">Home</NavItem>
+                    <Link to='/main'>Home</Link>
                 </Nav>
                 <NavbarHeader>
-                    <Navbar.Brand className="navbar-brand">
-                        <img href="/main" className="nav-logo" src="Images/logo.png" alt="logo" />
-                    </Navbar.Brand>
+                    <img href="/main" className="nav-logo" src="Images/logo.png" alt="logo" />
                 </NavbarHeader>
                 <Nav>
-                    <NavItem className="nav-list" eventKey={2} href="/progress">Progress</NavItem>
+                    <Link to='/progress'>Progress</Link>
                 </Nav>
             </Navbar>
         );

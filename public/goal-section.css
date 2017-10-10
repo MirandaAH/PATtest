@@ -8,7 +8,7 @@ hr {
 }
 .btn {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     font-family: 'Palanquin Dark', sans-serif;
     box-shadow: 3px 3px 15px black;
@@ -17,10 +17,19 @@ hr {
     float: none;
 }
 
-.sub-goal-display {
-    
+.sub-goal-title {
+    color: black;
 }
 
+.goal-comp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: right;
+}
+
+/* Progress Bars Content ----------- */
 .goal-progress-bars {
     display: flex;
     justify-content: left;
@@ -36,27 +45,11 @@ hr {
     margin: auto;
     margin-bottom: 8px;
     text-align: center;
-    width: 98%;
+    width: 95%;
     color: white;
     background-color: #888;
     position: relative;
     height: 30px;
-}
-
-.progress-value {
-    margin-top: 10px;
-    position: absolute;
-    right: 0;
-    left: 0;
-    color: white;
-    font-size: 1.5em;
-}
-
-.goal-comp-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
 }
 
 
@@ -85,4 +78,9 @@ hr {
     padding: 20px 10px 10px 10px;
     background-color: white;
     border-radius: 5px;
+}
+
+.list-group-item {
+    margin-top: 0px;
+    margin-bottom: 2px;
 }

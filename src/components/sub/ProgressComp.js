@@ -12,7 +12,7 @@ class ProgressComp extends Component {
         return (
             <Panel header={title}>
                 Progress Content
-        </Panel>
+            </Panel>
         );
     }
 }

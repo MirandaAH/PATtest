@@ -13,10 +13,8 @@ class SubGoalComp extends Component {
 
     render() {
         return (
-            <Panel collapsible expanded={false}>
-
+            <Panel collapsible expanded={this.props.expanded}>
                 <a href=""><GoalTitleComp /></a>
-
                 <ButtonToolbar>
                     <Button bsStyle="success" bsSize="small"><i class="fa fa-plus" aria-hidden="true"> </i> Add Sub-Goal</Button>
                 </ButtonToolbar>
