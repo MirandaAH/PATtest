@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
 let Navbar = require("react-bootstrap/lib/Navbar");
-let NavItem = require("react-bootstrap/lib/NavItem");
 let Nav = require("react-bootstrap/lib/Nav");
 let NavbarHeader = require("react-bootstrap/lib/NavbarHeader")
 

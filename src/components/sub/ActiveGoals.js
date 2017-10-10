@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import GoalTitleComp from './GoalTitleComp';
-import SubGoalComp from './SubGoalComp';
 
-let Button = require("react-bootstrap/lib/Button");
-let ButtonToolbar = require("react-bootstrap/lib/ButtonToolbar")
+
 
 
 class ActiveGoals extends Component {
