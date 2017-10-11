@@ -3,7 +3,7 @@ import GoalLabel from './GoalLabel';
 
 let Panel = require("react-bootstrap/lib/Panel");
 let Button = require("react-bootstrap/lib/Button");
-let ButtonToolbar = require("react-bootstrap/lib/ButtonToolbar")
+let ButtonToolbar = require("react-bootstrap/lib/ButtonToolbar");
 
 
 class SubGoals extends Component {
@@ -12,8 +12,11 @@ class SubGoals extends Component {
     }
 
     render() {
+      const mainSubgoal = {
+        marginBottom: "12px"
+      }
         return (
-            <Panel className="main-subgoal-panel" collapsible expanded={this.props.expanded}>
+            <Panel className="main-subgoal-panel"  style={mainSubgoal} collapsible expanded={this.props.expanded}>
                 <a href=""><GoalLabel /></a>
                 <ButtonToolbar>
                     <Button bsStyle="success" bsSize="small"><i class="fa fa-plus" aria-hidden="true"> </i> Add Sub-Goal</Button>

@@ -13,13 +13,33 @@ class GoalLabel extends Component {
         };
     }
     render() {
+      const goalCompContainer = {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        color: "white",
+        textAlign: "right"
+      }
+      const progressBar = {
+        margin: "auto",
+        marginBottom: "8px",
+        textAlign: "center",
+        width: "95%",
+        color: "white",
+        backgroundColor: "#888",
+        position: "relative",
+        height: "30px"
+      }
+      const subGoalTitle= {
+        color: "black"
+      }
         return (
-            <div className="row goal-comp-container">
-                <div class="goal-title col-lg-5">
-                    <h4 className="sub-goal-title">Goal 1/Sub Goal - </h4>
+            <div className="row goal-comp-container" style={goalCompContainer}>
+                <div className="goal-title col-lg-5">
+                    <h4 className="sub-goal-title" style={subGoalTitle}>Goal #1 </h4>
                 </div>
-                <div class="goal-progress col-lg-6">
-                    <ProgressBar striped bsStyle="success" now={40} active/>
+                <div className="goal-progress col-lg-6">
+                    <ProgressBar style={progressBar} striped bsStyle="success" now={40} active/>
                 </div>
             </div>
         );
