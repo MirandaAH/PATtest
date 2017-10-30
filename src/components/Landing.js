@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import API from '../utils/API.js';
-import LoginForm from './sub/LoginForm.js';
+import LoginForm from './auth/LoginForm.js';
 
 //Link is required for both sign up and login (style as desired)
 class Landing extends Component {
@@ -47,7 +47,6 @@ class Landing extends Component {
   render() {
     return (
       <div className="login">
-        <img src={'../Images/mountains.jpg'} className="mountains" alt="mountains" />
         <div className="container">
           <div className="row">
             <div className="col-md-12">

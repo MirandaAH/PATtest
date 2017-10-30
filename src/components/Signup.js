@@ -1,5 +1,5 @@
 import React from 'react';
-import SignupForm from './sub/SignupForm';
+import SignupForm from './auth/SignupForm';
 
 const Signup = () => (
   <div className="container-fluid">

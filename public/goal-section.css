@@ -3,27 +3,85 @@ hr {
     border-radius: 10px;
     width: 90%;
 }
-.goal-container {
-    margin-top: 30px;
+/*.goal-container {
     text-align: left;
-}
-.btn {
+}*/
+/*.btn {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     font-family: 'Palanquin Dark', sans-serif;
+    box-shadow: 3px 3px 15px black;
+}*/
+.btn-toolbar > .btn {
+    float: none;
 }
-.panel {
+
+.sub-goal-title {
+    color: black;
+}
+
+/*.goal-comp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: right;
+}*/
+
+/* Progress Bars Content ----------- */
+/*.goal-progress-bars {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.progress-bar {
+    height: 40px;
+}*/
+
+/*.progress {
+    margin: auto;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 95%;
+    color: white;
+    background-color: #888;
+    position: relative;
+    height: 30px;
+}*/
+
+/*Goal Progress Panel------------------ */
+
+/*.panel {
     font-family: 'Mallanna', sans-serif;
-    margin: 5px;
-    border: 1px solid black;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.84);
-}
-.panel-heading {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 95%;
+    background-color: white;
+    border-color: #2ecc71;
+    text-align: left;
+}*/
+.panel-default > .panel-heading {
     margin: 5px 0px 5px 20px;
+    background-color: white;
+    border-color: #2ecc71;
 }
-.panel-body {
+.panel-heading:hover {
+    cursor: pointer;
+}
+/*.panel-body {
     padding: 20px 10px 10px 10px;
     background-color: white;
-}
+    border-radius: 5px;
+}*/
+
+/*.list-group-item {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}*/
+/*.main-subgoal-panel {
+    margin-bottom: 12px;
+}*/
